@@ -1,5 +1,5 @@
 import unittest
-from calculator import add, average, divide
+from calculator import add, average, divide, multiply, subtract
 
 class CalculatorTests(unittest.TestCase):
     def test_add(self):
@@ -18,6 +18,12 @@ class CalculatorTests(unittest.TestCase):
     def test_average_empty(self):
         with self.assertRaises(ValueError):
             average([])
+
+    def test_multiply(self):
+        self.assertEqual(multiply(3, 4), 12)
+
+    def test_subtract(self):
+        self.assertEqual(subtract(9, 4), 5)
 
 if __name__ == "__main__":
     unittest.main()
