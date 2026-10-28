@@ -25,7 +25,7 @@ def groq_chat(messages, model=None):
         raise RuntimeError("Set GROQ_API_KEY with your Groq API key, then retry.")
     client = Groq(api_key=os.environ["GROQ_API_KEY"])
     response = client.chat.completions.create(
-        model=model or os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile"),
+        model=model or os.getenv("GROQ_MODEL", "openai/gpt-oss-120b"),
         messages=messages, temperature=0.1
     )
     return response.choices[0].message.content or ""
