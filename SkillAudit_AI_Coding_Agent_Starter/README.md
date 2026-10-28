@@ -129,7 +129,7 @@ The current local calculator test suite has been run successfully: **7 tests pas
 
 ## Optional demo recording
 
-A short recording can help present the project, but it is optional unless your internship submission page explicitly requires it.
+A demo recording is optional unless the SkillAudit.ai submission instructions explicitly mark it as required.
 
 Suggested 2–4 minute outline:
 
@@ -151,7 +151,7 @@ Do not show API keys or claim outcomes that were not observed.
 - [ ] Confirm and retain evidence for the required multi-file editing workflow.
 - [ ] Submit the GitHub repository link to SkillAudit.ai.
 - [ ] Publish the internship work on LinkedIn and submit the post URL if required by the internship instructions.
-- [ ] Optional: record a short end-to-end demo, unless the submission page says it is mandatory.
+- [ ] Record an end-to-end demo only if SkillAudit.ai explicitly requires it.
 
 ## Suggested LinkedIn caption
 
